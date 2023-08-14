@@ -4,3 +4,4 @@ sudo dpkg -i packages-microsoft-prod.deb
 sudo apt update 
 sudo apt install apt-transport-https -y
 sudo apt install dotnet-sdk-2.1 -y
+dotnet --info
